@@ -16,11 +16,26 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
 library(tidyverse)
 ```
 
-```{r}
+```{r read_data}
+set1 <- read_csv("~/R/project/data/set1.csv")
+set2 <- read_csv("~/R/project/data/set2.csv")
+set3 <- read_csv("~/R/project/data/set3.csv")
+```
+
+```{r glimpse_data}
 glimpse(set1)
 glimpse(set2)
 glimpse(set3)
 ```
 
+Set 3:
 
+Research Question:
+For music tracks (tracks with a speechiness < 0.33), what is the correlation
+between energy and popularity? What is the mean energy for tracks that go #1?
+
+Hypothesis:
+Songs with higher energy scores (> 0.8) are more likely to be more popular 
+(< 25) than songs with low energy scores (0.2). 
+The mean energy for tracks that go #1 is 0.8 or greater.
 
