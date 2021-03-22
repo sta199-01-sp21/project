@@ -1,0 +1,26 @@
+---
+title: "project"
+author: "Ella van Engen"
+date: "3-21-21"
+output:
+  pdf_document: default
+  html_document: default
+editor_options:
+  chunk_output_type: console
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      comment = "#>", highlight = TRUE,
+                      fig.align = "center")
+library(tidyverse)
+```
+
+```{r}
+glimpse(set1)
+glimpse(set2)
+glimpse(set3)
+```
+
+
+
