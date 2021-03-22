@@ -16,10 +16,10 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
 library(tidyverse)
 ```
 
-```{r read_data}
-set1 <- read_csv("~/R/project/data/set1.csv")
-set2 <- read_csv("~/R/project/data/set2.csv")
-set3 <- read_csv("~/R/project/data/set3.csv")
+```{r load_data}
+set1 <- read.csv("~/R/project/data/set1.csv")
+set2 <- read.csv("~/R/project/data/set2.csv")
+set3 <- read.csv("~/R/project/data/set3.csv")
 ```
 
 ```{r glimpse_data}
@@ -28,24 +28,23 @@ glimpse(set2)
 glimpse(set3)
 ```
 
-Set 3:
 
-Research Question:
-For music tracks (tracks with a speechiness < 0.33), what is the correlation
-between energy and popularity? What is the mean energy for tracks that go #1?
+Research Question for Dataset 1 (Colleges): Is there any correlation between 
+mid-career salary and the percentage of of alumni who think they are making the 
+world a better place across all North Carolina colleges? 
+Hypothesis for Dataset 1: There will be no correlation between mid-career salary
+and the percentage of alumni who believe they are making the world a better 
+place across North Carolina colleges. 
 
-<<<<<<< HEAD
-Hypothesis:
-Songs with higher energy scores (> 0.8) are more likely to be more popular 
-(< 25) than songs with low energy scores (0.2). 
+Research Question for Dataset 2 (Transit): Is the cost per km of urban rail 
+more dependent on the time length of the project or the total rail length 
+of the project? 
+Hypothesis for Dataset 2: Cost per km of urban rail is more dependent on the 
+total rail length of the project. 
+
+Research Question for Dataset 3 (Spotify): For music tracks 
+(tracks with a speechiness < 0.33), what is the correlation between 
+energy and popularity? What is the mean energy for tracks that go #1? 
+Hypothesis for Dataset 3: Songs with higher energy scores (> 0.8) are more 
+likely to be more popular (< 25) than songs with low energy scores (0.2). 
 The mean energy for tracks that go #1 is 0.8 or greater.
-=======
-Research Question for Dataset 1 (Colleges): Is there any correlation between mid-career salary and the percentage of of alumni who think they are making the world a better place across all North Carolina colleges? 
-Hypothesis for Dataset 1: There will be no correlation between mid-career salary and the percentage of alumni who believe they are making the world a better place across North Carolina colleges.  
->>>>>>> 7d58f741dbcdffcad3dcea1f739a749cd47be8e3
-
-Research Question for Dataset 2 (Transit): Is the cost per km of urban rail more dependent on the time length of the project or the total rail length of the project?
-Hypothesis for Dataset 2: Cost per km of urban rail is more dependent on the total rail length of the project. 
-
-Research Question for Dataset 3 (Spotify):
-Hypothesis for Dataset 3:
