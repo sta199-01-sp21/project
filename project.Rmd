@@ -1,6 +1,6 @@
 ---
 title: "project"
-author: "Ella van Engen"
+author: "Ella van Engen and Connor Wilchusky"
 date: "3-21-21"
 output:
   pdf_document: default
@@ -23,4 +23,11 @@ glimpse(set3)
 ```
 
 
+Research Question for Dataset 1 (Colleges): Is there any correlation between mid-career salary and the percentage of of alumni who think they are making the world a better place across all North Carolina colleges? 
+Hypothesis for Dataset 1: There will be no correlation between mid-career salary and the percentage of alumni who believe they are making the world a better place across North Carolina colleges.  
 
+Research Question for Dataset 2 (Transit): Is the cost per km of urban rail more dependent on the time length of the project or the total rail length of the project?
+Hypothesis for Dataset 2: Cost per km of urban rail is more dependent on the total rail length of the project. 
+
+Research Question for Dataset 3 (Spotify):
+Hypothesis for Dataset 3:
